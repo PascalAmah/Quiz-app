@@ -53,7 +53,8 @@ function quizApp() {
     
     let currentQuiz = 0;
     let score = 0;
-    
+
+    loadQuiz();
     
     function loadQuiz() {
         deselectAnswers();    
